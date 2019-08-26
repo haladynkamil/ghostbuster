@@ -55,7 +55,7 @@ aperture_size = 4
   
 After creating your config.ini we can process our picture.  
 To do so, simply run the script with path and type of savart plate (p1 or p3)  
-####Example:  
+Example:  
 python3 savart.py ../images/observations/savartp1/image0001.fits p1
 
 
