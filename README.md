@@ -21,14 +21,23 @@ Start with setting up your config.ini file.
 Here are some default values:
 
 [DEFAULT]
+
 fwhm = 3
+
 threshold = 200  <- Lower this value if you want to find more stars on the image.
+
 sigma = 3
+
 angle = 30
+
 savart_distance = 39.2
+
 min_star_limit = 10  <- minimal limit of stars found on image to process it
+
 approx_distance = 10 
+
 norm_percent = 99.9
+
 [SAVART_PARAMETERS_P1]
 x_distance = 27  <- Distance between real star and her ghost in X dimension (in pixels)
 y_distance = 32  <- Same for Y dimension
