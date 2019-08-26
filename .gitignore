@@ -1,1 +1,7 @@
-config.ini
+logger.log
+coordinates_output_table/*
+plots_aperture/*
+plots_mask/*
+plots_no_mask/*
+wcs_files/*
+
