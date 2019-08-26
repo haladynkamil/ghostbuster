@@ -22,13 +22,10 @@ Here are some default values:
 
 [DEFAULT]
 
-fwhm = 3
-
+fwhm = 3  
 threshold = 200  <- Lower this value if you want to find more stars on the image.
-
-sigma = 3
-
-angle = 30
+sigma = 3  
+angle = 30  
 
 savart_distance = 39.2
 
