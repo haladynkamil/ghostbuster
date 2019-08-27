@@ -5268,3 +5268,426 @@ INFO:root:Finished
 INFO:root:Ploting...
 INFO:root:Saving normal and ghosts list
 INFO:root:Saved normal and ghosts list
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Ploting...
+INFO:root:Plotted image with masked ghosts
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Creating apertures
+INFO:root:Plotting apertures for 66 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Ploting...
+INFO:root:Plotted image with masked ghosts
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Creating apertures
+INFO:root:Plotting apertures for 66 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Ploting...
+INFO:root:Plotted image with masked ghosts
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Creating apertures
+INFO:root:Plotting apertures for 66 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
+INFO:root:----------- 2019-08-27 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 164 stars
+INFO:root:Finished
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 84 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Looking for ghosts started..
+INFO:root:Found 66 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
