@@ -20,6 +20,7 @@ import logging
 from datetime import date
 from astropy.coordinates import SkyCoord
 import subprocess as sub
+from astropy import wcs
 
 def get_hdr(hdr):
     ra = hdr['RA']
@@ -35,40 +36,55 @@ def run_astrometry(image_path, coo, **kwargs):
         '--ra', '%s' % coo.ra.deg,
         '--dec', '%s' % coo.dec.deg,
         '--radius', '1',
-        '--depth', '600',
+        '--depth', '700',
         '--cpulimit', '3000',
         '--scale-units', 'arcsecperpix',
-        '--scale-low', '0.9',
-        '--scale-high', '1.2',
+        '--scale-low', '0.8',
+        '--scale-high', '1.3',
         '--x-column', 'x',
         '--y-column', 'y',
         '--width', '1024',
         '--height', '1024',
         '--overwrite', '--no-verify', '--no-plots',
         '/data_market/' + image_base_name + 'new.fits']
-
     text_fits_command = [
         'docker', 'exec', 'nova', 'text2fits',
         '-f', 'ff',
-        '-H', "x y"
-        '/data_market/' + image_base_name, image_base_name + 'new.fits']
+        '-H', 'x y',
+        '/data_market/' + image_base_name,
+        '/data_market/' + image_base_name + 'new.fits']
+    print(image_base_name)
 
-    wcs_file_path = str(image_path + 'sol')
-
+    print(text_fits_command) 
+    p = sub.Popen(text_fits_command, stdout=sub.PIPE,
+            stderr=sub.PIPE)
+    output, error = p.communicate()
+    print(output)
+    print(error)
     
-    sub.Popen(text_fits_command, stdout=sub.PIPE,
-            stderr=sub.PIPE).communicate()
-    print(text_fits_command)
     sub.Popen(solve_field_command, stdout=sub.PIPE,
             stderr=sub.PIPE).communicate()
-    print(solve_field_command)
-    
+    wcs_file_path = './coordinates_output_table/' + image_base_name + 'new.wcs'
     if os.path.exists(wcs_file_path):
         logging.info('ASTROMETRY: success')
-        return wcs_file_path, True
+        return wcs_file_path
     
     logging.info('ASTROMETRY: FAILED')
     return None, False
+
+def get_ra_dec_table(ghost_table, wcs_path, file_name):
+    print(wcs_path)
+    hdr = fits.open(wcs_path)[0].header
+    w = wcs.WCS(hdr)
+    x = ghost_table['real_xcentroid'].data
+    y = ghost_table['real_ycentroid'].data
+    xyli = np.c_[x,y]
+    world = w.wcs_pix2world(xyli, 1)
+    ghost_table['RA'] = world[:,0]
+    ghost_table['DEC'] = world[:,1]
+    print(ghost_table)
+    file_name = 'coordinates_output_table/' + os.path.basename(file_name).split('.')[0]
+    ghost_table.write(file_name + '_ghosts', format='ascii', overwrite=True)
 
 def open_image(my_path):
     """ Returns fits data from path provided by the user.
@@ -138,7 +154,12 @@ def ghostbuster_2(sources, mask, **kwargs):
 def sources_to_list(sources, ghost_xy, file_name):
     logging.info('Saving normal and ghosts list')
     file_name = 'coordinates_output_table/' + os.path.basename(file_name).split('.')[0]
-    sources[1:].write(file_name, format='ascii', include_names=['xcentroid','ycentroid'], overwrite=True)
+    sources.write(file_name, format='ascii', include_names = ['xcentroid','ycentroid'],overwrite=True)
+
+    with open(file_name, 'r') as fin:
+        data = fin.read().splitlines(True)
+    with open(file_name, 'w') as fout:
+        fout.writelines(data[1:])
     ghost_xy.write(file_name + '_ghosts', format='ascii', overwrite=True)
     logging.info('Saved normal and ghosts list')
     return file_name
@@ -267,7 +288,8 @@ def exec():
         if config['save_aperture'] == 'True':
             plt.savefig('plots_aperture/' + str(file_name) + '_ap.png')
     nova_path = sources_to_list(clean_sources, ghost_xy, file_path)
-    run_astrometry(nova_path, coo)     
+    wcs = run_astrometry(nova_path, coo)
+    get_ra_dec_table(ghost_xy, wcs, file_path)
 if __name__ == '__main__':
     mpl_logger = logging.getLogger('matplotlib')
     mpl_logger.setLevel(logging.WARNING)
