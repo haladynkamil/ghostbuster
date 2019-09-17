@@ -33,7 +33,7 @@ sudo docker run -d --name nova -v /path_to_index_folder:/usr/local/astrometry/da
 ## Example
 Start with setting up your config.ini file. 
 Here are some default values:
-
+```
 [DEFAULT]
 
 fwhm = 3  
@@ -66,7 +66,7 @@ figsize_rcparams_height = 20
 alpha = 0.45  
 draw_aperture = True  
 aperture_size = 4  
-  
+ ```
 After creating your config.ini we can process our picture.  
 To do so, simply run the script with path and type of savart plate (p1 or p3)  
 Example:  
