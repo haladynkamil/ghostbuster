@@ -32,6 +32,8 @@ sudo docker run -d --name nova -v /path_to_index_folder:/usr/local/astrometry/da
 
 ## Example
 Start with setting up your config.ini file. 
+To get x_distance and y_distance we reccomend to use ds9 and simply to create the rectangular box between star and her ghost.
+![ds9 setup](https://www.overleaf.com/project/5d6dad14c870af7566c32ca2/file/5d6dad14c870af7566c32ca9)
 Here are some default values:
 ```
 [DEFAULT]
@@ -70,6 +72,7 @@ aperture_size = 4
 After creating your config.ini we can process our picture.  
 To do so, simply run the script with path and type of savart plate (p1 or p3)  
 Example:  
-python3 savart.py ../images/observations/savartp1/image0001.fits p1
+```python3 savart.py ../images/observations/savartp1/image0001.fits p1```
+
 
 
