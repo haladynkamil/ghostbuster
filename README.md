@@ -1,4 +1,4 @@
-# ghostbuster
+# ![](https://i.imgur.com/9qS0Wjk.png)
 ## Introduction
 Ghostbuster is a python software that allows you to plate solve images taken by savart plates. It takes your 'doubled' image, finds parity stars and solves astrometry for one set of stars.
 ## Table of contents
