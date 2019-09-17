@@ -8,12 +8,12 @@ Ghostbuster is a python software that allows you to plate solve images taken by 
 ## Technologies
 
 - Python 3.6.8
-- ds9 (or equivalent)
-- astropy
-- numpy
-- photutils
-- matplotlib
-- docker
+- [ds9](http://ds9.si.edu/site/Home.html) (or equivalent)
+- [astropy](https://www.astropy.org/)
+- [numpy](https://numpy.org/)
+- [photutils](https://photutils.readthedocs.io/en/stable/)
+- [matplotlib](https://matplotlib.org/)
+- [docker](https://www.docker.com/)
 
 ## Setup
 First of all you need python 3.6.8. To install python on your PC use [this guide](https://realpython.com/installing-python/)
@@ -82,5 +82,7 @@ Results will depend on your config file. Plotted and moved masks shoud look like
 ![](https://i.imgur.com/qgvB33o.png)
 
 In your coordinate output folder you should have a set of X,Y and RA,DEC for each star on the picture.
+
+**If astrometry fails, try changing the 'treshold' value** 
 
 
