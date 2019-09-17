@@ -25,7 +25,10 @@ Third important thing that is required to use this software is Docker. Docker al
 
 After we set up docker we have to run nova container and mount the volumens.
 To do this use this code: 
-'sudo docker run -d --name nova -v /path_to_index_folder:/usr/local/astrometry/data -v /path_to_out_output_tables:/data_market -p 8000:8000 michalzg/nova
+
+```
+sudo docker run -d --name nova -v /path_to_index_folder:/usr/local/astrometry/data -v /path_to_out_output_tables:/data_market -p 8000:8000 michalzg/nova
+```
 
 ## Example
 Start with setting up your config.ini file. 
