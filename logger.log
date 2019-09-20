@@ -7085,3 +7085,168 @@ INFO:root:Saved normal and ghosts list
 INFO:root:ASTROMETRY: start
 INFO:root:ASTROMETRY: success
 WARNING:astropy:FITSFixedWarning: The WCS transformation has more axes (2) than the image it is associated with (0)
+INFO:root:----------- 2019-09-01 -----------
+INFO:root:----------- 2019-09-01 -----------
+INFO:root:----------- 2019-09-01 -----------
+INFO:root:Opening file: bd323739p1-r4s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 187 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Ploted image without masks
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 99 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Ploting...
+INFO:root:Plotted image with masked ghosts
+INFO:root:Looking for ghosts started..
+INFO:root:Found 82 ghosts
+INFO:root:Finished
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
+INFO:root:----------- 2019-09-03 -----------
+INFO:root:Opening file: bd323739p1-r4s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 493 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Ploted image without masks
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 254 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Ploting...
+INFO:root:Plotted image with masked ghosts
+INFO:root:Looking for ghosts started..
+INFO:root:Found 145 ghosts
+INFO:root:Finished
+INFO:root:Creating apertures
+INFO:root:Plotting apertures for 145 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
+INFO:root:----------- 2019-09-03 -----------
+INFO:root:Opening file: bd323739p3-r4s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 427 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Ploted image without masks
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (1.0,) (38.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 272 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Ploting...
+INFO:root:Plotted image with masked ghosts
+INFO:root:Looking for ghosts started..
+INFO:root:Found 116 ghosts
+INFO:root:Finished
+INFO:root:Creating apertures
+INFO:root:Plotting apertures for 116 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: FAILED
+INFO:root:----------- 2019-09-20 -----------
+INFO:root:----------- 2019-09-20 -----------
+INFO:root:----------- 2019-09-20 -----------
+INFO:root:----------- 2019-09-20 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 542 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Ploted image without masks
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 277 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Ploting...
+INFO:root:Plotted image with masked ghosts
+INFO:root:Looking for ghosts started..
+INFO:root:Found 151 ghosts
+INFO:root:Finished
+INFO:root:Creating apertures
+INFO:root:Plotting apertures for 151 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: success
+INFO:root:----------- 2019-09-20 -----------
+INFO:root:----------- 2019-09-20 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:----------- 2019-09-20 -----------
+INFO:root:Opening file: bd284211p1-r15s0001.fits
+INFO:root:Opening image data
+INFO:root:Finished
+INFO:root:Reading config.ini file
+INFO:root:Finished
+INFO:root:Finding stars on image...
+INFO:root:Found 542 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Ploted image without masks
+INFO:root:Masking ghost with ghostbuster_2
+INFO:root:X, Y shifts = (27.0,) (32.0,)
+INFO:root:Ghosts masked
+INFO:root:Finding stars on image...
+INFO:root:Found 277 stars
+INFO:root:Finished
+INFO:root:Found real stars
+INFO:root:Ploting...
+INFO:root:Plotted image with masked ghosts
+INFO:root:Looking for ghosts started..
+INFO:root:Found 151 ghosts
+INFO:root:Finished
+INFO:root:Creating apertures
+INFO:root:Plotting apertures for 151 stars
+INFO:root:Finished
+INFO:root:Ploting...
+INFO:root:Saving normal and ghosts list
+INFO:root:Saved normal and ghosts list
+INFO:root:ASTROMETRY: start
+INFO:root:ASTROMETRY: success
+WARNING:astropy:FITSFixedWarning: The WCS transformation has more axes (2) than the image it is associated with (0)
