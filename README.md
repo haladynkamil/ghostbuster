@@ -20,6 +20,7 @@ Ghostbuster is a python software that allows you to plate solve images taken by 
 - [scipy](https://www.scipy.org/)
 
 You can install all packages using requirements.txt:
+
 ```
 pip install --user --requirement requirements.txt
 ```
@@ -36,11 +37,12 @@ After we set up docker we have to run nova container and mount the volumens.
 To do this use this code: 
 
 ```
-sudo docker run -d --name nova -v /"Path to your index folder":/usr/local/astrometry/data -v /<font color="green">"Path to your output tables":/data_market -p 8000:8000 michalzg/nova
+sudo docker run -d --name nova -v /"PATH_TO_INDEX":/usr/local/astrometry/data -v /"PATH_TO_DATA":/data_market -p 8000:8000 michalzg/nova
 ```
-Path to your index folder --> Provide a system path to index files downloaded earlier,
 
-Path to your output tables --> This is a folder where Ghostbuster will output coordination tables, and from where astronova will take them. I highly reccomend using output_tables/ folder just like in this git repository.
+**PATH_TO_INDEX** --> Provide a system path to index files downloaded earlier,
+
+**PATH_TO_DATA** --> This is a folder where Ghostbuster will output coordination tables, and from where astronova will take them. I highly reccomend using output_tables/ folder just like in this git repository.
 
 
 ## Example
@@ -86,15 +88,23 @@ alpha = 0.45
 draw_aperture = True  
 aperture_size = 4  
  ```
+ 
 After creating your config.ini we can process our picture.  
 To do so, simply run the script with path and type of savart plate (p1 or p3)  
 Example:  
+
 ```python3 savart.py ../images/observations/savartp1/image0001.fits p1```
-Results will depend on your config file. Plotted and moved masks shoud look like this:
 
-![](https://i.imgur.com/qgvB33o.png)
+Results will depend on your config file. 
+Assuming that all plots will be created (you can skip unwanted plots using config file), ghostbuster will start by plotting your picture.
 
-In your coordinate output folder you should have a set of X,Y and RA,DEC for each star on the picture.
+After that, masks will be added to every star, and then masks will be moved by direction provided by config file.
+
+![Moved masks](https://i.imgur.com/qgvB33o.png)
+
+All unmasked stars are going to be found again. Those are our primary stars. Software wil provide those stars as X, Y points for astrometry solution. After the solution, WCS file will be loaded and all ghosts and real stars will have their RA and DEC. Results will be outputed in a table format. 
+
+![Example of table content](https://i.imgur.com/55WR8B9.png)
 
 **If astrometry fails, try changing the 'treshold' value** 
 
