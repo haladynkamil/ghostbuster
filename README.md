@@ -37,7 +37,7 @@ After we set up docker we have to run nova container and mount the volumens.
 To do this use this code: 
 
 ```
-sudo docker run -d --name nova -v /"PATH_TO_INDEX":/usr/local/astrometry/data -v /"PATH_TO_DATA":/data_market -p 8000:8000 michalzg/nova
+sudo docker run -d --name nova -v <PATH_TO_INDEX>:/usr/local/astrometry/data -v <PATH_TO_DATA>:/data_market -p 8000:8000 michalzg/nova
 ```
 
 **PATH_TO_INDEX** --> Provide a system path to index files downloaded earlier,
