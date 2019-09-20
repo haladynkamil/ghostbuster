@@ -20,9 +20,9 @@ Ghostbuster is a python software that allows you to plate solve images taken by 
 - [scipy](https://www.scipy.org/)
 
 You can install all packages using requirements.txt:
-'''
+```
 pip install --user --requirement requirements.txt
-'''
+```
 
 ## Setup
 First of all you need python 3.6.8. To install python on your PC use [this guide](https://realpython.com/installing-python/)
@@ -39,7 +39,9 @@ To do this use this code:
 sudo docker run -d --name nova -v /"Path to your index folder":/usr/local/astrometry/data -v /<font color="green">"Path to your output tables":/data_market -p 8000:8000 michalzg/nova
 ```
 Path to your index folder --> Provide a system path to index files downloaded earlier,
+
 Path to your output tables --> This is a folder where Ghostbuster will output coordination tables, and from where astronova will take them. I highly reccomend using output_tables/ folder just like in this git repository.
+
 
 ## Example
 Start with setting up your config.ini file. 
