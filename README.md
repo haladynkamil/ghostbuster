@@ -17,6 +17,12 @@ Ghostbuster is a python software that allows you to plate solve images taken by 
 - [photutils](https://photutils.readthedocs.io/en/stable/)
 - [matplotlib](https://matplotlib.org/)
 - [docker](https://www.docker.com/)
+- [scipy](https://www.scipy.org/)
+
+You can install all packages using requirements.txt:
+'''
+pip install --user --requirement requirements.txt
+'''
 
 ## Setup
 First of all you need python 3.6.8. To install python on your PC use [this guide](https://realpython.com/installing-python/)
@@ -30,7 +36,7 @@ After we set up docker we have to run nova container and mount the volumens.
 To do this use this code: 
 
 ```
-sudo docker run -d --name nova -v /path_to_index_folder:/usr/local/astrometry/data -v /path_to_out_output_tables:/data_market -p 8000:8000 michalzg/nova
+sudo docker run -d --name nova -v /<font color="green"> Path to your index folder </font>:/usr/local/astrometry/data -v /<font color="green"> Path to your output tables </font>:/data_market -p 8000:8000 michalzg/nova
 ```
 
 ## Example
