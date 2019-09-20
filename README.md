@@ -36,8 +36,10 @@ After we set up docker we have to run nova container and mount the volumens.
 To do this use this code: 
 
 ```
-sudo docker run -d --name nova -v /<font color="green"> Path to your index folder </font>:/usr/local/astrometry/data -v /<font color="green"> Path to your output tables </font>:/data_market -p 8000:8000 michalzg/nova
+sudo docker run -d --name nova -v /"Path to your index folder":/usr/local/astrometry/data -v /<font color="green">"Path to your output tables":/data_market -p 8000:8000 michalzg/nova
 ```
+Path to your index folder --> Provide a system path to index files downloaded earlier,
+Path to your output tables --> This is a folder where Ghostbuster will output coordination tables, and from where astronova will take them. I highly reccomend using output_tables/ folder just like in this git repository.
 
 ## Example
 Start with setting up your config.ini file. 
